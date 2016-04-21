@@ -1,0 +1,3 @@
+Simple program to run on an arduino leonardo (32u4) style board, that will reset the Asetto Corsa simulator at OSC. 
+
+This program works in conjunction with AutoHotKey to exccute the mouse movements. 
