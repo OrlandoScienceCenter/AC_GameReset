@@ -21,12 +21,19 @@ void loop(){
 }
 void raceReset(){
   //resets AC to start
-	  Keyboard.press(ctrlKey);
-	  Keyboard.press('o');
+	Keyboard.press(ctrlKey);
+	Keyboard.press('o');
   //Activates AutoHotKeyScript to click mouse on start race button
-	  Keyboard.press(ctrlKey);
-	  Keyboard.press(KEY_F12);
-  delay(100);
-  Keyboard.releaseAll();
-  delay(1000);
+	Keyboard.press(ctrlKey);
+	Keyboard.press(KEY_F12);
+	delay(100);
+	
+	Keyboard.releaseAll();
+	delay(100);
+	
+	Keyboard.press(KEY_F6);
+	delay(100);
+	
+	Keyboard.releaseAll();
+	delay(1000);
 }
