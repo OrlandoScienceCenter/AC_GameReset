@@ -42,11 +42,11 @@ void raceReset(){
 		for (uint8_t i = 0; i < 16; i++){ // Arduino is stupid, so we have to loop
 		Mouse.move(-127,127,0); // sets back to upper left corner 
 		}
-    Keyboard.ReleaseAll();              /// Changes View to driver
+    Keyboard.releaseAll();              /// Changes View to driver
    	  Keyboard.press(ctrlKey);
-      delay(20)
+      delay(20);
 	  Keyboard.press(KEY_F6);
-      delay(20)
+      delay(20);
       Keyboard.releaseAll();
   delay(1000);
 }
