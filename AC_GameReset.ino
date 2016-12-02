@@ -43,10 +43,9 @@ void raceReset(){
 		Mouse.move(-127,127,0); // sets back to upper left corner 
 		}
     Keyboard.releaseAll();              /// Changes View to driver
-   	  Keyboard.press(ctrlKey);
-      delay(20);
+      delay(50);
 	  Keyboard.press(KEY_F6);
-      delay(20);
+      delay(50);
       Keyboard.releaseAll();
   delay(1000);
 }
